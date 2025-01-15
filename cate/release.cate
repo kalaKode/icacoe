@@ -1,0 +1,5 @@
+smol = true
+Project icacoe
+.files = {recursive("src/*.c")}
+.flags = "-O2"
+.build()

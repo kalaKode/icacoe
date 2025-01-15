@@ -1,0 +1,4 @@
+Project icacoe
+.files = {recursive("src/*.c")}
+.flags = "-g -Wall -Wextra -Werror -Wpedantic"
+.build()
